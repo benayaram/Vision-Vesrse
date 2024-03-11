@@ -1,0 +1,102 @@
+/* static/landing.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background for frosted glass effect */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar appears above other elements */
+}
+
+.navbar-brand h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.hero {
+    margin-top: 80px; /* Adjust margin to accommodate fixed navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Subtract navbar height from viewport height */
+    background-image: url('../static/1428482.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.left-div {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background for frosted glass effect */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Box shadow for frosted glass effect */
+}
+
+h1 {
+    font-size: 36px;
+    color: #23063a;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 20px;
+    }
+
+    .hero {
+        margin-top: 60px;
+        height: calc(100vh - 60px);
+    }
+
+    .left-div {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,111 @@
+/* static/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('./1428482.jpg'); /* Add your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keep background fixed */
+    background-position: center; /* Center the background image */
+}
+
+.container {
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust opacity as needed */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add stronger shadow for frosted glass effect */
+}
+
+.left, .right {
+    width: 100%;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center; /* Center form elements */
+}
+
+input[type="file"] {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 10px; /* Add padding to the input */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Set your desired button background color */
+    color: #fff; /* Set your desired button text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners to the button */
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Add shadow for button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Set your desired button background color on hover */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add stronger shadow for frosted glass effect */
+}
+/* static/styles.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+}
+
+.left {
+    width: 40%; /* Adjust width as needed */
+}
+
+.right {
+    width: 55%; /* Adjust width as needed */
+}
+
+.action-div {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.action-div button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.result-div {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
